@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/main/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles/main/main.css" />
+    <link rel="stylesheet" href="styles/main/responsive.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    @@include('../layouts/header.html')
+    <main class="main">
+      @@include('../layouts/site-nav.html', {"page": "Gallery"})
+      <section class="tab section-gap">
+        <div class="big-container">
+          <div class="tab__nav">
+            <button class="tab__btn" type="button" data-tab="tab1">
+              Bedroom furniture
+            </button>
+            <button
+              class="tab__btn tab__btn--active"
+              type="button"
+              data-tab="tab2"
+            >
+              Living room furniture
+            </button>
+            <button class="tab__btn" type="button" data-tab="tab3">
+              Office furniture
+            </button>
+            <button class="tab__btn" type="button" data-tab="tab4">
+              Dining room futniture
+            </button>
+            <button class="tab__btn" type="button" data-tab="tab5">
+              Chair
+            </button>
+          </div>
+          <div class="tab__list">
+            <div class="tab__body" data-tab="tab1">
+              <div class="tab__pane">
+                <div class="tab__item">
+                  <img src="images/tab3.jpg" alt="tab1" />
+                </div>
+                <div class="tab__mini">
+                  <div class="tab__item">
+                    <img src="images/tab2.jpg" alt="tab1" />
+                  </div>
+                  <div class="tab__item">
+                    <img src="images/tab5.jpg" alt="tab1" />
+                  </div>
+                  <div class="tab__item">
+                    <img src="images/tab4.jpg" alt="tab1" />
+                  </div>
+                  <div class="tab__item">
+                    <img src="images/tab1.jpg" alt="tab1" />
+                  </div>
+                </div>
+              </div>
+              <div class="tab__pane">
+                <div class="tab__mini">
+                  <div class="tab__item">
+                    <img src="images/tab2.jpg" alt="tab1" />
+                  </div>
+                  <div class="tab__item">
+                    <img src="images/tab5.jpg" alt="tab1" />
+                  </div>
+                  <div class="tab__item">
+                    <img src="images/tab4.jpg" alt="tab1" />
+                  </div>
+                  <div class="tab__item">
+                    <img src="images/tab1.jpg" alt="tab1" />
+                  </div>
+                </div>
+                <div class="tab__item">
+                  <img src="images/tab3.jpg" alt="tab1" />
+                </div>
+              </div>
+            </div>
+            <div class="tab__body tab__body--active" data-tab="tab2">
+              <div class="tab__pane">
+                <div class="tab__item">
+                  <img src="images/tab3.jpg" alt="tab1" />
+                </div>
+                <div class="tab__mini">
+                  <div class="tab__item">
+                    <img src="images/tab2.jpg" alt="tab1" />
+                  </div>
+                  <div class="tab__item">
+                    <img src="images/tab5.jpg" alt="tab1" />
+                  </div>
+                  <div class="tab__item">
+                    <img src="images/tab4.jpg" alt="tab1" />
+                  </div>
+                  <div class="tab__item">
+                    <img src="images/tab1.jpg" alt="tab1" />
+                  </div>
+                </div>
+              </div>
+              <div class="tab__pane">
+                <div class="tab__mini">
+                  <div class="tab__item">
+                    <img src="images/tab2.jpg" alt="tab1" />
+                  </div>
+                  <div class="tab__item">
+                    <img src="images/tab5.jpg" alt="tab1" />
+                  </div>
+                  <div class="tab__item">
+                    <img src="images/tab4.jpg" alt="tab1" />
+                  </div>
+                  <div class="tab__item">
+                    <img src="images/tab1.jpg" alt="tab1" />
+                  </div>
+                </div>
+                <div class="tab__item">
+                  <img src="images/tab3.jpg" alt="tab1" />
+                </div>
+              </div>
+            </div>
+            <div class="tab__body" data-tab="tab3">
+              <div class="tab__pane">
+                <div class="tab__item">
+                  <img src="images/tab3.jpg" alt="tab1" />
+                </div>
+                <div class="tab__mini">
+                  <div class="tab__item">
+                    <img src="images/tab2.jpg" alt="tab1" />
+                  </div>
+                  <div class="tab__item">
+                    <img src="images/tab5.jpg" alt="tab1" />
+                  </div>
+                  <div class="tab__item">
+                    <img src="images/tab4.jpg" alt="tab1" />
+                  </div>
+                  <div class="tab__item">
+                    <img src="images/tab1.jpg" alt="tab1" />
+                  </div>
+                </div>
+              </div>
+              <div class="tab__pane">
+                <div class="tab__mini">
+                  <div class="tab__item">
+                    <img src="images/tab2.jpg" alt="tab1" />
+                  </div>
+                  <div class="tab__item">
+                    <img src="images/tab5.jpg" alt="tab1" />
+                  </div>
+                  <div class="tab__item">
+                    <img src="images/tab4.jpg" alt="tab1" />
+                  </div>
+                  <div class="tab__item">
+                    <img src="images/tab1.jpg" alt="tab1" />
+                  </div>
+                </div>
+                <div class="tab__item">
+                  <img src="images/tab3.jpg" alt="tab1" />
+                </div>
+              </div>
+            </div>
+            <div class="tab__body" data-tab="tab4">
+              <div class="tab__pane">
+                <div class="tab__item">
+                  <img src="images/tab3.jpg" alt="tab1" />
+                </div>
+                <div class="tab__mini">
+                  <div class="tab__item">
+                    <img src="images/tab2.jpg" alt="tab1" />
+                  </div>
+                  <div class="tab__item">
+                    <img src="images/tab5.jpg" alt="tab1" />
+                  </div>
+                  <div class="tab__item">
+                    <img src="images/tab4.jpg" alt="tab1" />
+                  </div>
+                  <div class="tab__item">
+                    <img src="images/tab1.jpg" alt="tab1" />
+                  </div>
+                </div>
+              </div>
+              <div class="tab__pane">
+                <div class="tab__mini">
+                  <div class="tab__item">
+                    <img src="images/tab2.jpg" alt="tab1" />
+                  </div>
+                  <div class="tab__item">
+                    <img src="images/tab5.jpg" alt="tab1" />
+                  </div>
+                  <div class="tab__item">
+                    <img src="images/tab4.jpg" alt="tab1" />
+                  </div>
+                  <div class="tab__item">
+                    <img src="images/tab1.jpg" alt="tab1" />
+                  </div>
+                </div>
+                <div class="tab__item">
+                  <img src="images/tab3.jpg" alt="tab1" />
+                </div>
+              </div>
+            </div>
+            <div class="tab__body" data-tab="tab5">
+              <div class="tab__pane">
+                <div class="tab__item">
+                  <img src="images/tab2.jpg" alt="tab1" />
+                </div>
+                <div class="tab__mini">
+                  <div class="tab__item">
+                    <img src="images/tab1.jpg" alt="tab1" />
+                  </div>
+                  <div class="tab__item">
+                    <img src="images/tab5.jpg" alt="tab1" />
+                  </div>
+                  <div class="tab__item">
+                    <img src="images/tab4.jpg" alt="tab1" />
+                  </div>
+                  <div class="tab__item">
+                    <img src="images/tab3.jpg" alt="tab1" />
+                  </div>
+                </div>
+              </div>
+              <div class="tab__pane">
+                <div class="tab__mini">
+                  <div class="tab__item">
+                    <img src="images/tab1.jpg" alt="tab1" />
+                  </div>
+                  <div class="tab__item">
+                    <img src="images/tab5.jpg" alt="tab1" />
+                  </div>
+                  <div class="tab__item">
+                    <img src="images/tab4.jpg" alt="tab1" />
+                  </div>
+                  <div class="tab__item">
+                    <img src="images/tab3.jpg" alt="tab1" />
+                  </div>
+                </div>
+                <div class="tab__item">
+                  <img src="images/tab2.jpg" alt="tab1" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    @@include('../layouts/footer.html')
+  </body>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</html>

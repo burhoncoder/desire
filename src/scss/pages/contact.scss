@@ -1,0 +1,47 @@
+.map iframe {
+  width: 100%;
+  height: 450px;
+}
+.map {
+  margin-top: -80px;
+}
+.contacts {
+  .title-wrapper {
+    margin-left: 0;
+    text-align: left;
+  }
+  .section-subtitle {
+    color: #a1a1a1;
+  }
+  &__inf {
+    padding-left: 20%;
+    margin-top: 50px;
+  }
+  &__social {
+    display: flex;
+  }
+  &__social-icon:not(:last-child) {
+    margin-right: 50px;
+  }
+  &__adress {
+    margin: 15px 0;
+  }
+  &__adress .section-subtitle {
+    margin: 5px 0;
+    color: var(--main-black);
+  }
+}
+.products .furniture__title {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+.products .furniture__title::after {
+  display: none;
+}
+.products .swiper-container {
+  padding-bottom: 20px;
+}
+.products-swiper {
+  overflow: hidden;
+}

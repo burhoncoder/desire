@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/main/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles/main/main.css" />
+    <link rel="stylesheet" href="styles/main/responsive.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    @@include('../layouts/header.html')
+    <main class="main">
+      @@include('../layouts/site-nav.html', {"page": "Blog/ Single Post"})
+      <div class="container">
+        <section class="blogs section-gap">
+          <div class="blogs__content">
+            <article class="blog__item">
+              <img src="images/blog1.jpg" alt="Blog" />
+              <time class="blog__time"
+                >March 12, 2020 | by Ann Summers | Inrerior
+              </time>
+              <h2 class="blog__title">
+                Listicle actually selvage activated charcoal for the drinking
+                vinegar
+              </h2>
+              <p class="section-subtitle">
+                Everyday carry actually neutra authentic kogi shabby chic migas
+                small batch craft beer. Literally williamsburg tote bag
+                farm-to-table mustache ugh deep v irony. Af man bun copper mug
+                iPhone enamel pin pug selvage hammock palo santo godard
+                thundercats coloring book yuccie woke. Ugh pok pok taxidermy
+                pabst enamel pin edison bulb farm-to-table. Yuccie portland
+                kickstarter, readymade ramps humblebrag ennui banjo mumblecore
+                vaporware pickled cray stumptown 8-bit mlkshk. Tumeric tousled
+                austin, kinfolk scenester authentic craft beer truffaut irony
+                intelligentsia YOLO lomo bushwick coloring book. Semiotics man
+                bun venmo viral cliche. Tousled yr williamsburg austin edison
+                bulb cloud bread vegan street art. Locavore food truck trust
+                fund palo santo asymmetrical, franzen deep v marfa kogi whatever
+                swag pop-up seitan.
+              </p>
+            </article>
+            <blockquote class="quotation">
+              <h3 class="quote__text">
+                “Simplicity is not the goal. It is the by-product of a good idea
+                and modest expectations”
+              </h3>
+              <p class="quote__author">Paul Rand</p>
+            </blockquote>
+            <p class="section-subtitle">
+              Everyday carry actually neutra authentic kogi shabby chic migas
+              small batch craft beer. Literally williamsburg tote bag
+              farm-to-table mustache ugh deep v irony. Af man bun copper mug
+              iPhone enamel pin pug selvage hammock palo santo godard
+              thundercats coloring book yuccie woke. Ugh pok pok taxidermy pabst
+              enamel pin edison bulb farm-to-table. Yuccie portland kickstarter,
+              readymade ramps humblebrag ennui banjo mumblecore vaporware
+              pickled cray stumptown 8-bit mlkshk. Tumeric tousled austin,
+              kinfolk scenester authentic craft beer truffaut irony
+              intelligentsia YOLO lomo bushwick coloring book. Semiotics man bun
+              venmo viral cliche. Tousled yr williamsburg austin edison bulb
+              cloud bread vegan street art. Locavore food truck trust fund palo
+              santo asymmetrical, franzen deep v marfa kogi whatever swag pop-up
+              seitan.
+            </p>
+            <div class="blog__tag">
+              <h3 class="section-title blog-inside__title">Tags</h3>
+              <div class="tags">
+                <button class="tags__btn" type="button">
+                  Dining room futniture
+                </button>
+                <button class="tags__btn" type="button">Chair</button>
+                <button class="tags__btn" type="button">Table</button>
+                <button class="tags__btn" type="button">Bedroom</button>
+              </div>
+            </div>
+            <div class="order">
+              <div class="order__left">
+                <img src="images/arrowL.jpg" alt="arrow" />
+                <p class="order__text">
+                  Cred selfies edison bulb four dollar toast humblebrag
+                </p>
+              </div>
+              <div class="order__right">
+                <p class="order__text">
+                  Semiotics fixie four dollar toast, next level
+                </p>
+                <img src="images/arrowR.jpg" alt="arrow" />
+              </div>
+            </div>
+            <div class="comment">
+              <h3 class="section-title blog-inside__title">Comments:</h3>
+              <div class="comment__grid">
+                <img src="images/avatar.png" alt="avatar" />
+                <div class="comment-content">
+                  <div class="comment__head">
+                    <div>
+                      <h3 class="section-title">Lea Brown</h3>
+                      <time class="search__time"
+                        >August 10, 2020 | by Ann Summers</time
+                      >
+                    </div>
+                    <button class="comment__reply">Reply</button>
+                  </div>
+                  <p class="section-subtitle">
+                    Tumeric tousled austin, kinfolk scenester authentic craft
+                    beer truffaut irony intelligentsia YOLO lomo bushwick
+                    coloring book. Semiotics man bun venmo viral cliche
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="post">
+              <h3 class="section-title blog-inside__title">Post a Comment</h3>
+              <form class="post__form" action="#">
+                <textarea
+                  class="post__field"
+                  name="comment"
+                  placeholder="Your comment"
+                ></textarea>
+                <input
+                  class="post__field post__input"
+                  name="name"
+                  placeholder="Your name"
+                  type="text"
+                />
+                <input
+                  class="post__field post__input"
+                  name="email"
+                  placeholder="Your e-mail"
+                  type="text"
+                />
+                <label class="post__checkbox">
+                  <input name="remember" type="checkbox" />
+                  Remember me
+                </label>
+              </form>
+              <button class="post__submit" type="submit">Submit</button>
+            </div>
+          </div>
+          <aside class="search">
+            <input class="search__input" type="text" placeholder="Search" />
+            <div class="search__row">
+              <h3 class="section-title">Categories</h3>
+              <a class="section-subtitle" href="#">Dining room (1)</a>
+              <a class="section-subtitle" href="#">Office furniture (12)</a>
+              <a class="section-subtitle" href="#"
+                >Simple interiror design (2)</a
+              >
+              <a class="section-subtitle" href="#">Design (4)</a>
+              <a class="section-subtitle" href="#">Bedroom Furniture (1)</a>
+            </div>
+            <div class="search__row">
+              <h3 class="section-title">Recent Posts</h3>
+              <a class="section-subtitle" href="#"
+                >Cred selfies edison bulb four dollar toast humblebrag
+                <time class="search__time"
+                  >August 10, 2020 | by Ann Summers</time
+                >
+              </a>
+              <a class="section-subtitle" href="#"
+                >Semiotics fixie four dollar toast, next level woke scenester
+                direct trade photo booth
+                <time class="search__time"
+                  >August 10, 2020 | by Ann Summers</time
+                >
+              </a>
+              <a class="section-subtitle" href="#"
+                >Cred selfies edison bulb four dollar toast humblebrag
+                <time class="search__time"
+                  >August 10, 2020 | by Ann Summers</time
+                >
+              </a>
+            </div>
+            <div class="search__row">
+              <h3 class="section-title">Tags</h3>
+              <div class="tags">
+                <button class="tags__btn" type="button">
+                  Dining room futniture
+                </button>
+                <button class="tags__btn" type="button">Chair</button>
+                <button class="tags__btn" type="button">Table</button>
+                <button class="tags__btn" type="button">Bedroom</button>
+                <button class="tags__btn" type="button">
+                  Office Furniture
+                </button>
+              </div>
+            </div>
+            <div class="search__social">
+              <a class="search__social-icon" href="#">
+                <img src="images/facebook.png" alt="facebook" />
+              </a>
+              <a class="search__social-icon" href="#">
+                <img src="images/instagram.png" alt="instagram" />
+              </a>
+              <a class="search__social-icon" href="#">
+                <img src="images/pinterest.png" alt="pinterest" />
+              </a>
+              <a class="search__social-icon" href="#">
+                <img src="images/whatsapp.png" alt="whattsap" />
+              </a>
+              <a class="search__social-icon" href="#">
+                <img src="images/twitter.png" alt="twitter" />
+              </a>
+            </div>
+          </aside>
+        </section>
+      </div>
+    </main>
+    @@include('../layouts/footer.html')
+  </body>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</html>

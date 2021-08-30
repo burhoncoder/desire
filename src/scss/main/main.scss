@@ -1,0 +1,24 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.main {
+  overflow: hidden;
+}
+
+// HELPERS
+@import '../helpers/fonts';
+@import '../helpers/variables';
+@import '../helpers/genericUI';
+
+// COMPONENTS
+@import '../components/_header';
+@import '../components/_footer';
+@import '../components/_tab';
+@import '../components/_site-nav';
+
+// PAGES
+@import '../pages/home';
+@import '../pages/about';
+@import '../pages/blogs';
+@import '../pages/blog-inside';
+@import '../pages/contact';

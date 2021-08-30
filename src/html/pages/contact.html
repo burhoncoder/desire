@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/main/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles/main/main.css" />
+    <link rel="stylesheet" href="styles/main/responsive.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    @@include('../layouts/header.html')
+    <main class="main">
+      @@include('../layouts/site-nav.html', {"page": "Contact"})
+      <section class="map section-gap">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d47950.56612759914!2d69.27378611248479!3d41.31081314329819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d41.2825974!2d69.2793667!4m5!1s0x38aef48a8ed4d0e9%3A0x3772abeffc72e7b8!2siut%20in%20tachkent!3m2!1d41.338525!2d69.33453!5e0!3m2!1sru!2s!4v1629604983297!5m2!1sru!2s"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </section>
+      <section class="contacts section-gap">
+        <div class="container">
+          <div class="title-wrapper">
+            <h1 class="section-title title--border">Contact Us</h1>
+          </div>
+          <div class="contacts__inf">
+            <div class="contacts__social">
+              <a class="contacts__social-icon" href="#">
+                <img src="images/facebook.png" alt="facebook" />
+              </a>
+              <a class="contacts__social-icon" href="#">
+                <img src="images/instagram.png" alt="instagram" />
+              </a>
+              <a class="contacts__social-icon" href="#">
+                <img src="images/pinterest.png" alt="pinterest" />
+              </a>
+              <a class="contacts__social-icon" href="#">
+                <img src="images/whatsapp.png" alt="whattsap" />
+              </a>
+              <a class="contacts__social-icon" href="#">
+                <img src="images/twitter.png" alt="twitter" />
+              </a>
+            </div>
+            <p class="section-subtitle">
+              Vexillologist vape microdosing freegan pork belly deep v direct
+              trade cray single-origin coffee street art. Viral shaman mustache
+              master cleanse, pour-over affogato poutine copper mug marfa fanny
+              pack normcore. Lo-fi pop-up banjo portland, echo park hammock
+              chillwave literally post-ironic ramps subway tile kitsch. Shaman
+              tumblr fixie echo park street art. Enamel pin vaporware wayfarers,
+              organic succulents hella sustainable cardigan.
+            </p>
+            <div class="contacts__adress">
+              <p class="section-subtitle">(415) 829-7934</p>
+              <p class="section-subtitle">725 Green St</p>
+              <p class="section-subtitle">
+                San Francisco, California(CA), 94133
+              </p>
+            </div>
+            <a class="footer__social" href="#">
+              <img src="images/message.jpg" alt="message" />
+              <span class="footer__link">ouremailaddress@email.com</span>
+            </a>
+            <form class="post__form" action="#">
+              <input
+                class="post__field post__input"
+                name="name"
+                placeholder="Your name"
+                type="text"
+              />
+              <input
+                class="post__field post__input"
+                name="email"
+                placeholder="Your e-mail"
+                type="text"
+              />
+              <textarea
+                class="post__field"
+                name="comment"
+                placeholder="Your comment"
+              ></textarea>
+            </form>
+            <button class="post__submit" type="submit">Submit</button>
+          </div>
+        </div>
+      </section>
+      <section class="products section-gap">
+        <div class="big-container">
+          <div class="products-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <article class="furniture__item">
+                  <img src="images/furniture1.jpg" alt="furniture1" />
+                  <div class="furniture__descr">
+                    <h3 class="furniture__title">Truffaut literally trust</h3>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="furniture__item">
+                  <img src="images/furniture4.jpg" alt="furniture1" />
+                  <div class="furniture__descr">
+                    <h3 class="furniture__title">Truffaut literally trust</h3>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="furniture__item">
+                  <img src="images/furniture3.jpg" alt="furniture1" />
+                  <div class="furniture__descr">
+                    <h3 class="furniture__title">Truffaut literally trust</h3>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="furniture__item">
+                  <img src="images/furniture2.jpg" alt="furniture1" />
+                  <div class="furniture__descr">
+                    <h3 class="furniture__title">Truffaut literally trust</h3>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="furniture__item">
+                  <img src="images/furniture5.jpg" alt="furniture1" />
+                  <div class="furniture__descr">
+                    <h3 class="furniture__title">Truffaut literally trust</h3>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="furniture__item">
+                  <img src="images/furniture2.jpg" alt="furniture1" />
+                  <div class="furniture__descr">
+                    <h3 class="furniture__title">Truffaut literally trust</h3>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="furniture__item">
+                  <img src="images/furniture3.jpg" alt="furniture1" />
+                  <div class="furniture__descr">
+                    <h3 class="furniture__title">Truffaut literally trust</h3>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="furniture__item">
+                  <img src="images/furniture5.jpg" alt="furniture1" />
+                  <div class="furniture__descr">
+                    <h3 class="furniture__title">Truffaut literally trust</h3>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="furniture__item">
+                  <img src="images/furniture4.jpg" alt="furniture1" />
+                  <div class="furniture__descr">
+                    <h3 class="furniture__title">Truffaut literally trust</h3>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="furniture__item">
+                  <img src="images/furniture2.jpg" alt="furniture1" />
+                  <div class="furniture__descr">
+                    <h3 class="furniture__title">Truffaut literally trust</h3>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="furniture__item">
+                  <img src="images/furniture3.jpg" alt="furniture1" />
+                  <div class="furniture__descr">
+                    <h3 class="furniture__title">Truffaut literally trust</h3>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="furniture__item">
+                  <img src="images/furniture2.jpg" alt="furniture1" />
+                  <div class="furniture__descr">
+                    <h3 class="furniture__title">Truffaut literally trust</h3>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="furniture__item">
+                  <img src="images/furniture4.jpg" alt="furniture1" />
+                  <div class="furniture__descr">
+                    <h3 class="furniture__title">Truffaut literally trust</h3>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="furniture__item">
+                  <img src="images/furniture5.jpg" alt="furniture1" />
+                  <div class="furniture__descr">
+                    <h3 class="furniture__title">Truffaut literally trust</h3>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    @@include('../layouts/footer.html')
+  </body>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</html>

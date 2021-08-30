@@ -1,0 +1,61 @@
+.tab {
+  &__nav {
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  &__btn {
+    border: 1px solid #6a6b6b;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #8f8d8d;
+    margin: 10px 0;
+  }
+  &__btn--active {
+    color: var(--main-black);
+    background-color: #f3ea89;
+    border-color: #f3ea89;
+  }
+  &__btn:not(:last-child) {
+    margin-right: 20px;
+  }
+  &__body {
+    display: none;
+  }
+  &__body--active {
+    display: block;
+  }
+  &__pane {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+    height: 900px;
+  }
+  &__item {
+    padding: 10px;
+  }
+  &__pane > &__item {
+    width: 42%;
+    height: 100%;
+  }
+  &__mini {
+    width: 58%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__mini &__item {
+    width: 50%;
+    height: 50%;
+  }
+  &__item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,122 @@
+.about-banner {
+  padding: 130px 0;
+  text-align: center;
+  background: url('../../images/about-banner.jpg') no-repeat center;
+  background-size: cover;
+  .container {
+    position: relative;
+  }
+  & h1 {
+    font-size: 6rem;
+  }
+  & span {
+    position: absolute;
+    top: -120px;
+    left: 15px;
+  }
+}
+
+// ABOUT-INF !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+.about-inf {
+  &__descr {
+    padding-left: 20%;
+  }
+  .title-wrapper {
+    text-align: left;
+    margin-left: 0;
+  }
+}
+
+// VIDEO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+.video {
+  & img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
+}
+
+// VIDEO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+.inspiration {
+  position: relative;
+  padding-bottom: 40px;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 20%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background: url('../../images/background.jpg') no-repeat center;
+    background-size: cover;
+  }
+  .title-wrapper {
+    text-align: left;
+    margin-right: 0;
+    width: 61%;
+  }
+  &__body {
+    display: flex;
+    align-items: center;
+    width: 102%;
+    transform: translateX(-2%);
+    margin-top: -12%;
+  }
+  &__img {
+    width: 40%;
+    padding-right: 50px;
+  }
+  &__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  &__content {
+    width: 60%;
+  }
+  &__stat {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+  }
+  &__stat:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  &__stat::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 60%;
+    height: 2px;
+    background-color: var(--main-black);
+  }
+  &__inf {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--main-black);
+  }
+}
+
+// PARTNERS !!!!!!!!!!!!!!!!!!!
+
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -30px -20px;
+  &__item {
+    padding: 0 20px;
+    width: 20%;
+    height: 100%;
+  }
+  &__item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
