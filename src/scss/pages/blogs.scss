@@ -7,6 +7,7 @@
   }
   .blog__item {
     margin-bottom: 80px;
+    display: block;
   }
   .section-subtitle {
     margin-top: 10px;
@@ -36,7 +37,7 @@
     border: 1px solid #494848;
     border-radius: 20px;
     margin-bottom: 30px;
-    background: url('../../images/searchI.svg') no-repeat right 18px center;
+    background: url("../../images/searchI.svg") no-repeat right 18px center;
   }
   &__row {
     margin-bottom: 35px;
