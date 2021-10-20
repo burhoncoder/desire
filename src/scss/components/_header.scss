@@ -12,13 +12,13 @@
   }
   &__link {
     position: relative;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 15px;
     color: rgba(54, 56, 56, 0.9033);
   }
   &__link::after {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -45,7 +45,8 @@
   left: 0;
   z-index: 100;
   height: 100%;
-  width: 250px;
+  max-width: 250px;
+  width: 100%;
   background-color: #fff;
   padding: 20px 0;
   transform: translateX(-100%);
@@ -68,6 +69,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: calc(100% - 40px);
+    margin: auto;
     padding: 0 20px;
     margin-bottom: 30px;
   }

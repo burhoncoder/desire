@@ -203,6 +203,10 @@
     &__column {
       width: 50%;
     }
+    &__btn {
+      padding: 10px 40px;
+      font-size: 14px;
+    }
   }
 }
 @media (max-width: 575px) {

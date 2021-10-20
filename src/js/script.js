@@ -18,7 +18,12 @@ overlay.addEventListener("click", (e) => {
 const swiper = new Swiper(".swiper-container", {
   direction: "horizontal",
   loop: true,
+  speed: 1200,
   slidesPerView: 1,
+  autoplay: {
+    delay: 1000,
+    disableOnInteraction: false,
+  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -27,9 +32,10 @@ const swiper = new Swiper(".swiper-container", {
 const swiperProducts = new Swiper(".products-swiper", {
   direction: "horizontal",
   loop: true,
+  speed: 600,
   spaceBetween: 10,
   autoplay: {
-    delay: 1000,
+    delay: 600,
     disableOnInteraction: false,
   },
   breakpoints: {
